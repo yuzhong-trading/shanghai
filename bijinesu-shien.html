@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>お問い合わせ｜上海余忠商貿有限公司（中国語翻訳・現地通訳・日中ビジネス支援）</title>
-<meta name="description" content="上海余忠商貿有限公司へのお問い合わせページ。中国語翻訳・上海現地通訳・貿易ビジネス支援・中国企業信用調査など、まずはお気軽にご相談ください。">
+<title>上海の日中ビジネス支援｜貿易コンサルティング・現地サポート</title>
+<meta name="description" content="上海を拠点に、取引先探し・商流構築・OEM工場対応・現地手続きまで、日本と中国のあいだで生じるビジネス実務をサポートします。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -24,44 +24,26 @@
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --paper: #17150F;
-      --paper-raised: #1E1B14;
-      --ink: #F1ECDF;
-      --ink-soft: #BDB6A5;
-      --ink-faint: #7C7666;
-      --line: #383326;
-      --seal: #DD5B4C;
-      --seal-soft: #DD5B4C22;
+      --paper: #17150F; --paper-raised: #1E1B14; --ink: #F1ECDF; --ink-soft: #BDB6A5;
+      --ink-faint: #7C7666; --line: #383326; --seal: #DD5B4C; --seal-soft: #DD5B4C22;
     }
   }
   :root[data-theme="dark"] {
-    --paper: #17150F;
-    --paper-raised: #1E1B14;
-    --ink: #F1ECDF;
-    --ink-soft: #BDB6A5;
-    --ink-faint: #7C7666;
-    --line: #383326;
-    --seal: #DD5B4C;
-    --seal-soft: #DD5B4C22;
+    --paper: #17150F; --paper-raised: #1E1B14; --ink: #F1ECDF; --ink-soft: #BDB6A5;
+    --ink-faint: #7C7666; --line: #383326; --seal: #DD5B4C; --seal-soft: #DD5B4C22;
   }
   * { box-sizing: border-box; }
   body {
-    margin: 0;
-    background: var(--paper);
-    color: var(--ink);
+    margin: 0; background: var(--paper); color: var(--ink);
     font-family: "Noto Sans JP", "Hiragino Sans", sans-serif;
-    font-weight: 300;
-    line-height: 1.85;
-    -webkit-font-smoothing: antialiased;
+    font-weight: 300; line-height: 1.85; -webkit-font-smoothing: antialiased;
   }
-  h1, h2 { font-family: "Noto Serif JP", serif; font-weight: 600; margin: 0; }
+  h1, h2, h3 { font-family: "Noto Serif JP", serif; font-weight: 600; margin: 0; }
   a { color: inherit; }
-  .wrap { max-width: 680px; margin: 0 auto; padding: 0 28px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 28px; }
+  .rule { border: none; border-top: 1px solid var(--line); margin: 0; }
 
-  header {
-    padding-top: env(safe-area-inset-top, 0px);
-    border-bottom: 1px solid var(--line);
-  }
+  header { padding-top: env(safe-area-inset-top, 0px); border-bottom: 1px solid var(--line); }
   .nav { display: flex; align-items: center; justify-content: space-between; height: 72px; }
   .brand img { height: 34px; width: auto; display: block; background: #FFFFFF; border-radius: 6px; padding: 3px 6px; }
   .back-link { font-size: 13.5px; color: var(--ink-soft); text-decoration: none; border-bottom: 1px solid var(--line); padding-bottom: 2px; }
@@ -70,76 +52,44 @@
   .intro { padding: 64px 0 8px; }
   .eyebrow-line { display: flex; align-items: center; gap: 14px; color: var(--ink-faint); font-size: 13px; margin-bottom: 22px; }
   .eyebrow-line span.dot { width: 6px; height: 6px; border-radius: 50%; background: var(--seal); flex: none; }
-  h1 { font-size: clamp(26px, 4vw, 34px); line-height: 1.5; }
-  .intro p.lead { color: var(--ink-soft); margin-top: 16px; max-width: 52ch; font-size: 15px; }
-
-  .scope-card { margin-top: 36px; padding: 24px 26px; border: 1px solid var(--line); background: var(--paper-raised); }
-  .scope-card-title { font-family: "Noto Serif JP", serif; font-size: 15px; font-weight: 600; margin-bottom: 14px; }
-  .scope-card-list { margin: 0; padding: 0; list-style: none; font-size: 14px; color: var(--ink-soft); }
-  .scope-card-list li { padding: 7px 0 7px 20px; position: relative; }
-  .scope-card-list li::before { content: ""; position: absolute; left: 0; top: 15px; width: 6px; height: 6px; border-radius: 50%; background: var(--seal); }
-  .scope-card-note { margin: 16px 0 0; padding-top: 16px; border-top: 1px solid var(--line); font-size: 13.5px; color: var(--ink-faint); }
-
-  form { padding: 40px 0 100px; }
-  .field { margin-bottom: 26px; }
-  .field label { display: block; font-size: 13.5px; color: var(--ink-soft); margin-bottom: 8px; }
-  .field label .req { color: var(--seal); margin-left: 4px; font-size: 11px; }
-  .field input,
-  .field select,
-  .field textarea {
-    width: 100%;
-    font: inherit;
-    font-size: 15px;
-    color: var(--ink);
-    background: var(--paper-raised);
-    border: 1px solid var(--line);
-    padding: 13px 14px;
-    border-radius: 4px;
-    appearance: none;
-  }
-  .field textarea { resize: vertical; min-height: 140px; line-height: 1.8; }
-  .field input:focus,
-  .field select:focus,
-  .field textarea:focus {
-    outline: none;
-    border-color: var(--seal);
-  }
-  .field select {
-    background-image: linear-gradient(45deg, transparent 50%, var(--ink-faint) 50%), linear-gradient(135deg, var(--ink-faint) 50%, transparent 50%);
-    background-position: calc(100% - 20px) center, calc(100% - 15px) center;
-    background-size: 5px 5px, 5px 5px;
-    background-repeat: no-repeat;
-  }
-  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-  @media (max-width: 560px) { .field-row { grid-template-columns: 1fr; } }
-  .hint { font-size: 12.5px; color: var(--ink-faint); margin-top: 7px; }
-  .error { font-size: 12.5px; color: var(--seal); margin-top: 7px; display: none; }
-  .field.invalid .error { display: block; }
-  .field.invalid input,
-  .field.invalid select,
-  .field.invalid textarea { border-color: var(--seal); }
-
-  .submit-row { margin-top: 44px; }
-  .btn { display: inline-block; padding: 14px 30px; font-size: 14.5px; text-decoration: none; border: 1px solid var(--ink); color: var(--ink); background: none; cursor: pointer; font-family: inherit; transition: background .2s, color .2s, opacity .2s; }
+  h1 { font-size: clamp(26px, 4vw, 36px); line-height: 1.55; }
+  .intro p.lead { color: var(--ink-soft); margin-top: 18px; max-width: 56ch; font-size: 15.5px; }
+  .hero-cta { margin-top: 32px; }
+  .btn { display: inline-block; padding: 13px 28px; font-size: 14px; text-decoration: none; border: 1px solid var(--ink); color: var(--ink); }
   .btn.primary { background: var(--seal); border-color: var(--seal); color: #FBFAF6; }
   .btn.primary:hover { opacity: 0.88; }
 
-  .status-card {
-    margin-top: 28px;
-    padding: 22px 24px;
-    border: 1px solid var(--line);
-    background: var(--paper-raised);
-    font-size: 14px;
-    color: var(--ink-soft);
-    display: none;
-  }
-  .status-card.show { display: block; }
-  .status-card strong { color: var(--ink); font-weight: 500; }
-  .status-card .direct-email { margin-top: 10px; font-size: 13.5px; }
-  .status-card .direct-email a { color: var(--seal); text-decoration: none; border-bottom: 1px solid var(--seal-soft); }
+  section.block { padding: 56px 0; }
+  section.block.raised { background: var(--paper-raised); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  section.block h2 { font-size: 22px; margin-bottom: 30px; }
+
+  .feature-list { display: grid; grid-template-columns: 1fr; gap: 0; }
+  .feature-item { display: flex; gap: 16px; padding: 20px 0; border-top: 1px solid var(--line); }
+  .feature-item:last-child { border-bottom: 1px solid var(--line); }
+  .feature-item .mark { flex: none; width: 30px; height: 30px; margin-top: 2px; }
+  .feature-item h3 { font-size: 15.5px; font-weight: 600; margin-bottom: 6px; }
+  .feature-item p { margin: 0; color: var(--ink-soft); font-size: 14.5px; }
+
+  .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; }
+  .step { position: relative; padding: 0 20px 0 0; }
+  .step:not(:last-child)::after { content: ""; position: absolute; top: 14px; right: 0; width: 100%; height: 1px; background: var(--line); }
+  .step .num { font-family: "Noto Serif JP", serif; font-size: 14px; color: var(--seal); margin-bottom: 14px; }
+  .step h3 { font-size: 14.5px; font-weight: 600; margin-bottom: 8px; }
+  .step p { margin: 0; font-size: 13px; color: var(--ink-soft); }
+  @media (max-width: 680px) { .steps { grid-template-columns: 1fr; gap: 26px; } .step:not(:last-child)::after { display: none; } }
+
+  .case-grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
+  .case-card { border: 1px solid var(--line); background: var(--paper-raised); padding: 22px 24px; }
+  .case-card h3 { font-size: 15px; font-weight: 600; margin-bottom: 10px; }
+  .case-card ul { margin: 0; padding-left: 18px; font-size: 14px; color: var(--ink-soft); }
+  .case-card li { margin-bottom: 4px; }
+
+  .cta-band { padding: 64px 0 90px; text-align: left; }
+  .cta-band h2 { font-size: 22px; margin-bottom: 14px; }
+  .cta-band p { color: var(--ink-soft); max-width: 50ch; margin: 0 0 26px; font-size: 15px; }
 
   footer { border-top: 1px solid var(--line); padding: 28px 0; }
-  footer .wrap { font-size: 12px; color: var(--ink-faint); }
+  footer .wrap { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; font-size: 12px; color: var(--ink-faint); }
 
   :focus-visible { outline: 2px solid var(--seal); outline-offset: 2px; }
   @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
@@ -158,148 +108,114 @@
 
 <section class="intro">
   <div class="wrap">
-    <div class="eyebrow-line"><span class="dot"></span>お問い合わせ</div>
-    <h1>まずは概要だけでも構いません。<br>内容を伺ったうえで対応をご案内します。</h1>
-    <p class="lead">下のフォームに必要事項をご記入のうえ送信すると、内容を差出人にしたメールが作成されます。届いたメールをそのまま送信してください。</p>
-
-    <div class="scope-card">
-      <h2 class="scope-card-title">対応できる内容の例</h2>
-      <ul class="scope-card-list">
-        <li>中国語翻訳（日本語⇔中国語）</li>
-        <li>上海での現地通訳（商談・工場視察・展示会など）</li>
-        <li>中国企業とのやり取り・連絡の代行</li>
-        <li>中国企業の登記情報・信用調査</li>
-        <li>中国でのビジネスに関するご相談全般</li>
-      </ul>
-      <p class="scope-card-note">「こんな依頼でも対応できる？」という段階でも、お気軽にご相談ください。</p>
+    <div class="eyebrow-line"><span class="dot"></span>日中ビジネス支援</div>
+    <h1>日本と中国のあいだの実務を、現地からサポート</h1>
+    <p class="lead">中国での取引先探しや商流構築、OEM生産のパートナー選定・工場とのやり取りなど、事業を前に進めるための現地対応を担います。</p>
+    <div class="hero-cta">
+      <a class="btn primary" href="otoiawase.html?topic=business">この内容で相談する</a>
     </div>
   </div>
 </section>
 
-<form id="contact-form" novalidate>
+<section class="block">
   <div class="wrap">
-
-    <div class="field-row">
-      <div class="field" data-field="name">
-        <label for="name">お名前<span class="req">必須</span></label>
-        <input type="text" id="name" name="name" autocomplete="name">
-        <div class="error">お名前をご入力ください。</div>
+    <h2>対応内容</h2>
+    <div class="feature-list">
+      <div class="feature-item">
+        <svg class="mark" viewBox="0 0 30 30"><circle cx="15" cy="15" r="14" fill="none" stroke="var(--seal)" stroke-width="1.4"/><path d="M9 15l4.3 4.3L21 11" fill="none" stroke="var(--seal)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>
+          <h3>取引先・パートナー探し</h3>
+          <p>中国国内での取引先やOEM生産パートナーの候補探しをサポートします。</p>
+        </div>
       </div>
-      <div class="field" data-field="company">
-        <label for="company">会社名（任意）</label>
-        <input type="text" id="company" name="company" autocomplete="organization">
+      <div class="feature-item">
+        <svg class="mark" viewBox="0 0 30 30"><circle cx="15" cy="15" r="14" fill="none" stroke="var(--seal)" stroke-width="1.4"/><path d="M9 15l4.3 4.3L21 11" fill="none" stroke="var(--seal)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>
+          <h3>中国企業とのやり取り代行</h3>
+          <p>条件確認や連絡調整など、中国企業との日常的なやり取りを代行します。</p>
+        </div>
       </div>
-    </div>
-
-    <div class="field" data-field="email">
-      <label for="email">メールアドレス<span class="req">必須</span></label>
-      <input type="email" id="email" name="email" autocomplete="email">
-      <div class="error">正しいメールアドレスをご入力ください。</div>
-    </div>
-
-    <div class="field" data-field="topic">
-      <label for="topic">お問い合わせ内容</label>
-      <select id="topic" name="topic">
-        <option value="中国語翻訳について">中国語翻訳について</option>
-        <option value="中国現地通訳について">中国現地通訳について</option>
-        <option value="貿易・ビジネスコンサルティングについて">貿易・ビジネスコンサルティングについて</option>
-        <option value="中国企業信用調査について">中国企業信用調査について</option>
-        <option value="AIを活用したビジネスサービスについて">AIを活用したビジネスサービスについて</option>
-        <option value="その他のご相談">その他のご相談</option>
-      </select>
-    </div>
-
-    <div class="field" data-field="message">
-      <label for="message">お問い合わせ内容の詳細<span class="req">必須</span></label>
-      <textarea id="message" name="message" placeholder="ご相談内容、ご希望の対応時期などをご記入ください。"></textarea>
-      <div class="error">お問い合わせ内容をご入力ください。</div>
-    </div>
-
-    <div class="submit-row">
-      <button type="submit" class="btn primary">この内容でメールを作成する</button>
-      <div class="hint">送信ボタンを押すと、メールアプリが起動し宛先・件名・本文が自動入力されます。</div>
-    </div>
-
-    <div class="status-card" id="status-card">
-      <strong>メールアプリを開いています。</strong>
-      <div>開かない場合は、下記アドレスまで直接ご連絡ください。</div>
-      <div class="direct-email">
-        <a href="mailto:3657577243@qq.com">3657577243@qq.com</a>
+      <div class="feature-item">
+        <svg class="mark" viewBox="0 0 30 30"><circle cx="15" cy="15" r="14" fill="none" stroke="var(--seal)" stroke-width="1.4"/><path d="M9 15l4.3 4.3L21 11" fill="none" stroke="var(--seal)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>
+          <h3>現地手続きサポート</h3>
+          <p>自身が上海でZビザ・居留許可を取得した経験をもとに、必要書類の整理など現地手続きをサポートします。</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <svg class="mark" viewBox="0 0 30 30"><circle cx="15" cy="15" r="14" fill="none" stroke="var(--seal)" stroke-width="1.4"/><path d="M9 15l4.3 4.3L21 11" fill="none" stroke="var(--seal)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>
+          <h3>AIを活用した業務効率化</h3>
+          <p>翻訳・通訳業務にAIを組み合わせた効率化や、データ作成・評価などAI活用が前提となる業務にも対応します。</p>
+        </div>
       </div>
     </div>
-
   </div>
-</form>
+</section>
+
+<section class="block raised">
+  <div class="wrap">
+    <h2>ご依頼の流れ</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="num">01</div>
+        <h3>ご相談</h3>
+        <p>現状の課題や実現したいことをお聞かせください。</p>
+      </div>
+      <div class="step">
+        <div class="num">02</div>
+        <h3>内容確認・お見積り</h3>
+        <p>必要な作業範囲を整理し、進め方をご提案します。</p>
+      </div>
+      <div class="step">
+        <div class="num">03</div>
+        <h3>現地での対応</h3>
+        <p>上海の現場から、必要な調整・連絡を進めます。</p>
+      </div>
+      <div class="step">
+        <div class="num">04</div>
+        <h3>ご報告</h3>
+        <p>進捗や結果をご報告し、必要であれば次のステップをご提案します。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <h2>これまでの実績例</h2>
+    <div class="case-grid">
+      <div class="case-card">
+        <h3>建築分野の翻訳支援からの継続対応</h3>
+        <ul>
+          <li>建築関連企業とのやり取りを翻訳・通訳を通じて継続的にサポート</li>
+        </ul>
+      </div>
+      <div class="case-card">
+        <h3>教育系アニメ教材の中国展開サポート</h3>
+        <ul>
+          <li>日本の教育団体が制作したアニメ教材について、中国向けライセンス契約の交渉窓口を担当</li>
+          <li>中国語への翻訳・現地パートナーとの調整を担当</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap">
+    <h2>どこから相談していいか分からない場合も</h2>
+    <p>課題が漠然としている段階でも構いません。状況を伺ったうえで、対応できる範囲をご案内します。</p>
+    <a class="btn primary" href="otoiawase.html?topic=business">お問い合わせフォームへ</a>
+  </div>
+</section>
 
 <footer>
-  <div class="wrap">© 2026 上海余忠商貿有限公司</div>
+  <div class="wrap">
+    <div>© 2026 上海余忠商貿有限公司</div>
+    <div><a class="back-link" href="index.html">トップページ</a></div>
+  </div>
 </footer>
-
-<script>
-(function () {
-  var form = document.getElementById('contact-form');
-  var statusCard = document.getElementById('status-card');
-  var TO_EMAIL = '3657577243@qq.com';
-
-  var topicMap = {
-    translation: '中国語翻訳について',
-    interpretation: '中国現地通訳について',
-    business: '貿易・ビジネスコンサルティングについて',
-    credit: '中国企業信用調査について'
-  };
-  var topicParam = new URLSearchParams(window.location.search).get('topic');
-  if (topicParam && topicMap[topicParam]) {
-    form.topic.value = topicMap[topicParam];
-  }
-
-  function setInvalid(fieldName, invalid) {
-    var el = form.querySelector('[data-field="' + fieldName + '"]');
-    if (!el) return;
-    el.classList.toggle('invalid', invalid);
-  }
-
-  function isValidEmail(value) {
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
-  }
-
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    statusCard.classList.remove('show');
-
-    var name = form.name.value.trim();
-    var company = form.company.value.trim();
-    var email = form.email.value.trim();
-    var topic = form.topic.value;
-    var message = form.message.value.trim();
-
-    var valid = true;
-    if (!name) { setInvalid('name', true); valid = false; } else { setInvalid('name', false); }
-    if (!email || !isValidEmail(email)) { setInvalid('email', true); valid = false; } else { setInvalid('email', false); }
-    if (!message) { setInvalid('message', true); valid = false; } else { setInvalid('message', false); }
-
-    if (!valid) return;
-
-    var subject = '【お問い合わせ】' + topic + '（' + name + '様）';
-    var bodyLines = [
-      'お名前：' + name,
-      '会社名：' + (company || '（未記入）'),
-      'メールアドレス：' + email,
-      'お問い合わせ内容：' + topic,
-      '',
-      '詳細：',
-      message
-    ];
-    var body = bodyLines.join('\n');
-
-    var mailtoUrl = 'mailto:' + encodeURIComponent(TO_EMAIL)
-      + '?subject=' + encodeURIComponent(subject)
-      + '&body=' + encodeURIComponent(body);
-
-    window.location.href = mailtoUrl;
-    statusCard.classList.add('show');
-  });
-})();
-</script>
 
 </body>
 </html>
