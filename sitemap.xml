@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://yuzhong-trading.github.io/shanghai/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://yuzhong-trading.github.io/shanghai/chugokugo-honyaku.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yuzhong-trading.github.io/shanghai/genchi-tsuyaku.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yuzhong-trading.github.io/shanghai/bijinesu-shien.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yuzhong-trading.github.io/shanghai/shinyou-chousa.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yuzhong-trading.github.io/shanghai/otoiawase.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yuzhong-trading.github.io/shanghai/index-zh.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yuzhong-trading.github.io/shanghai/otoiawase-zh.html</loc>
+    <priority>0.6</priority>
+  </url>
+</urlset>
